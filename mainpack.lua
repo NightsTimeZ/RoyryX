@@ -7,7 +7,7 @@ if _G.KaitanMode then
     if gamelist[game.gameId] then
         getgenv().AuthTime = tick()
         print (checkgame)
-        loadstring(game:HttpGet(checkgame))(Habduiasbdikdasbdiabn[1])
+        loadstring(game:HttpGet(checkgame))()
     else 
         game.Players.LocalPlayer:Kick("Game Not Support")
     end
@@ -20,7 +20,7 @@ elseif _G.BountyMode then
     if gamelist[game.gameId] then
         getgenv().AuthTime = tick()
         print (checkgame)
-        loadstring(game:HttpGet(checkgame))(Habduiasbdikdasbdiabn[1])
+        loadstring(game:HttpGet(checkgame))()
     else 
         game.Players.LocalPlayer:Kick("Game Not Support")
     end
@@ -35,9 +35,9 @@ else
     if gamelist[game.gameId] then
         getgenv().AuthTime = tick()
         print (checkgame)
-        loadstring(game:HttpGet(checkgame))(Habduiasbdikdasbdiabn[1])
+        loadstring(game:HttpGet(checkgame))()
     else 
         game.Players.LocalPlayer:Kick("Game Not Support")
-        
+
     end
 end

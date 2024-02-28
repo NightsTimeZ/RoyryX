@@ -27,8 +27,8 @@ elseif _G.BountyMode then
 else
     local gamelist = {
         [994732206]  = "https://raw.githubusercontent.com/markxd07/V2-Scripts/main/MainBF.lua", -- Check Blox Fruits Map
-        [1451439645] = "https://raw.githubusercontent.com/markxd07/V2-Scripts/main/BladeBall.lua", -- Check King Legacy Map
-        [2340432463] = "https://raw.githubusercontent.com/markxd07/V2-Scripts/main/KL.lua", -- Check Last Pirates Map
+        [4777817887] = "https://raw.githubusercontent.com/markxd07/V2-Scripts/main/BladeBall.lua", -- Check Blade Ball Map
+        [1451439645] = "https://raw.githubusercontent.com/markxd07/V2-Scripts/main/KL.lua", -- Check King Legacy Map
     }
     local checkgame = gamelist[game.gameId]
 

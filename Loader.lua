@@ -31,6 +31,7 @@ else
         [1511883870]  = "https://raw.githubusercontent.com/markxd07/V2-Scripts/main/Shindo.lua",
         [1202096104] = "https://raw.githubusercontent.com/markxd07/V2-Scripts/main/DrivingEmpire.lua",
         [4093155512] = "https://raw.githubusercontent.com/markxd07/V2-Scripts/main/SwordBurst3.lua",
+        [5361032378] = "https://raw.githubusercontent.com/markxd07/V2-Scripts/main/Sols-RNG.lua"
     }
     local checkgame = gamelist[game.gameId]
 
